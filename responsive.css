@@ -1,0 +1,100 @@
+/* Untuk Tampilan Tablet */
+@media all and (max-width: 1000px) {
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  /* Dhara's Part */
+  .daftar-jenjang {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .daftar-partner {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .heading h3 {
+    font-size: 20px;
+  }
+
+  /*Dedit's Part*/
+  .team .card{
+		width:50%;
+		margin-bottom:30px;
+	}
+
+}
+
+/* Untuk Tampilan Smartphone */
+@media all and (max-width: 670px) {
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .login {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .header-right {
+    display: none;
+  }
+  
+  .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+  }
+  
+  .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+  }
+
+  /* Dhara's Part */
+  .daftar-jenjang {
+    width: 100%;
+  }
+
+  .daftar-partner {
+    width: 100%;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  /* Edulan's Part */
+  .inner-footer {
+    width: 50%;
+    float: left;
+    margin: auto;
+    padding: 20px 0px;
+    justify-content: justify;
+  }
+
+  .footer-none {
+    display: none;
+  }
+
+  .footer-items {
+    margin-right: 40px;
+  }
+
+  .footer-bottom {
+    display: inline-block;
+    text-align: center;
+  }
+
+  /*Dedit's Part*/
+  .team .card{
+    width:100%;
+  }
+  
+}
